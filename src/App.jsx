@@ -18,12 +18,12 @@ const App = () => {
 				<div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
 					<Navbar />
 					<Routes>
-						<Route path="/" element={<Hero />} />
-						<Route path="/about-me" element={<About />} />
-						<Route path="/experience" element={<Experience />} />
-						<Route path="/projects" element={<Works />} />
-						<Route path="/testimonials" element={<Feedbacks />} />
-						<Route path="/contact" element={<Contact />} />
+						<Route path="/" index element={<Hero />} />
+						<Route path="about-me" element={<About />} />
+						<Route path="experience" element={<Experience />} />
+						<Route path="projects" element={<Works />} />
+						<Route path="testimonials" element={<Feedbacks />} />
+						<Route path="contact" element={<Contact />} />
 					</Routes>
 				</div>
 			</div>
