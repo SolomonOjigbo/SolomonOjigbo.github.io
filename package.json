@@ -1,9 +1,9 @@
 {
 	"name": "solomon_ojigbo",
 	"private": true,
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "module",
-	"homepage": "http://SolomonOjigbo.github.io/SolomonOjigbo.github.io.git",
+	"homepage": "http://SolomonOjigbo.github.io",
 	"scripts": {
 		"dev": "vite",
 		"predeploy": "npm run build",
